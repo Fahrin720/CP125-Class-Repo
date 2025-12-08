@@ -5,7 +5,7 @@ import math
 
 def calculate_event_cost(participants, tent_capacity, tent_price, meal_price):
     if tent_capacity > 0:
-        tent_cost = (int((participants / tent_capacity)) * tent_price) 
+        tent_cost = math.ceil((participants / tent_capacity)) * tent_price
     else:
         tent_cost = 0
     cost = (meal_price * participants) + tent_cost
@@ -13,3 +13,16 @@ def calculate_event_cost(participants, tent_capacity, tent_price, meal_price):
 
 result = calculate_event_cost(47, 6, 100, 25)
 print(f"Testing Camping Logistics: {result:.2f}")
+
+
+
+
+
+
+
+
+
+
+
+
+
