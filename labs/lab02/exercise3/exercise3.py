@@ -3,11 +3,11 @@
 
 def validate_entry(name, pin):
     if name == "Director" and pin == 1122:
-        access = "Access Granted"
+        access = True
     elif name == "Security" and pin == 9900:
-        access = "Access Granted"
+        access = True
     else:
-        access = "Access Denied"
+        access = False
     return access
 
 result = validate_entry("Security", 9900)
