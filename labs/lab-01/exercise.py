@@ -151,7 +151,7 @@ def print_student_report(name, scores):
     print(f"Average Score: {average_score}")
     print(f"Grade: {grade}")
 
-print_student_report("Ahmad", [75, 82, 68])
+print_student_report("Ahmad:", [75, 82, 68])
     
 #scenario 2
 
