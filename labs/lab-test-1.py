@@ -17,4 +17,4 @@ def determine_grade(mark):
     print(f"Mark: {mark:.1f}, Grade: {grade}")
 
 mark = int(input("Enter the student's mark: "))
-determine_grade(mark)
+determine_grade(mark)0
